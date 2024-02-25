@@ -104,6 +104,8 @@ This distribution was carefully chosen to optimize our model's learning and vali
 
 #### Deeper Model
 
+![sample predictions](imgs/predictions_severe_damage_deeper_model.png)
+
 ##### Framework & Configuration
 
 **Overview:**
@@ -129,7 +131,7 @@ This distribution was carefully chosen to optimize our model's learning and vali
 
 ##### Evaluation
 
-![acc and loss curve](imgs/Screenshot%202024-02-23%20175341.png)
+![acc and loss curve](imgs/results_severe_damage_deeper_model.png)
 
 The previously described model reached an accuracy of 0.869 and a loss of 0.629.
 
@@ -137,7 +139,7 @@ The previously described model reached an accuracy of 0.869 and a loss of 0.629.
 
 #### Transfer Model V2
 
-![sample predictions](imgs/transefr_predseverre.png)
+![sample predictions](imgs/predictions_severe_damage_transfer_model.png)
 
 ##### Overview:
 
@@ -162,13 +164,15 @@ The previously described model reached an accuracy of 0.869 and a loss of 0.629.
 - **Epochs:** 100
 - **Evaluation:** The model was tested on a separate dataset to ensure unbiased performance evaluation.
 
-![Training result curves](imgs/transefr_severe-curves.png)
+![Training result curves](imgs/results_severe_damage_transfer_model.png)
 
 The model achieved a remarkable accuracy of 91.87% and a loss of 0.589, demonstrating its effectiveness in classifying severe car damage with high precision.
 
 ### CAR DAMAGE CLASSIFICATION - MINOR DAMAGE
 
 #### Transfer Model
+
+![sample predictions](imgs/predictions_minor_damage_transfer_model.png)
 
 ##### Overview:
 
@@ -195,7 +199,7 @@ The model achieved a remarkable accuracy of 91.87% and a loss of 0.589, demonstr
 
 The model achieved an accuracy of 0.95 and a loss of 5.12.
 
-![accuracy and loss curves](imgs/minor-curve.png)
+![accuracy and loss curves](imgs/results_minor_damage_deeper_model.png)
 
 ### CAR DAMAGE CLASSIFICATION - BOUNDING BOXES
 
