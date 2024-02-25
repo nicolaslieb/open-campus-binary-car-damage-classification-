@@ -199,7 +199,7 @@ The model achieved a remarkable accuracy of 91.87% and a loss of 0.589, demonstr
 
 The model achieved an accuracy of 0.95 and a loss of 5.12.
 
-![accuracy and loss curves](imgs/results_minor_damage_deeper_model.png)
+![accuracy and loss curves](imgs/results_minor_damage_transfer_model.png)
 
 ### CAR DAMAGE CLASSIFICATION - BOUNDING BOXES
 
